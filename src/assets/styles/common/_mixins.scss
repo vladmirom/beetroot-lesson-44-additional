@@ -1,0 +1,10 @@
+/**
+ * Project styles.
+ */
+
+@mixin container {
+  width: 76.92%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}

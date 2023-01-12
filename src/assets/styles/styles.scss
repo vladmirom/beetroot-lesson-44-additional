@@ -1,0 +1,12 @@
+/**
+ * Main file to include all the rest styles.
+ */
+
+@import 'common/rem';
+@import 'common/fonts.scss'; 
+@import 'common/variables';
+@import 'common/global';
+@import 'common/mixins';
+@import 'common/typography';
+@import 'icons/weather-icons.min.css'; 
+@import 'icons/weather-icons-wind.min.css'; 
