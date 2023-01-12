@@ -26,3 +26,25 @@ $h1-font-size: rem(21px);
 
 $line-height: rem(26px);
 $h1-line-height: rem(25px);
+
+// Tiles sizing
+$tile-sizes: (
+  quarter: 25%,
+  half: 50%,
+  full: 100%
+);
+
+// Tiles colors
+$city-colors: (
+  lisbon: $light-blue,
+  paris: $turquoise,
+  belgrade: $purple,
+  venice: $red,
+  tel-avive: $orange,
+  cairo: $yellow,
+  new-york: $lime,
+  new-delhi: $gray-green,
+  san-francisco: $pink,
+  tokyo: $green,
+  sydney: $gray
+);

@@ -1,0 +1,36 @@
+/**
+ * Wrapper styles for weather forecast block.
+ */
+
+ .weather-forecast {
+  &__table {
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: rem(1px);
+    background-color: $white;
+    transition: all .1s ease-in;
+
+    &:hover > li {
+      opacity: 0.5;
+    }
+
+    & li {
+      display: inline-block;
+      font-size: rem(22px);
+      line-height: 118%;
+      transition: all .1s ease-in;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__message {
+    font-size: rem(16px);
+    line-height: rem(19px);
+    margin-top: rem(35px);
+  }
+ }

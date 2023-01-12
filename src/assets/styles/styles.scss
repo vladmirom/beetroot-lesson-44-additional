@@ -2,11 +2,16 @@
  * Main file to include all the rest styles.
  */
 
+ // Common styles
 @import 'common/rem';
 @import 'common/fonts.scss'; 
 @import 'common/variables';
-@import 'common/global';
 @import 'common/mixins';
+@import 'common/global';
 @import 'common/typography';
 @import 'icons/weather-icons.min.css'; 
 @import 'icons/weather-icons-wind.min.css'; 
+
+// Components
+@import 'components/CityTile';
+@import 'components/WeatherForecast';

@@ -1,0 +1,40 @@
+/**
+ * Styles for city tiles.
+ */
+
+.weather-forecast {
+  &__size {
+    @each $key, $val in $tile-sizes {
+      &--#{$key} {
+        width: $val;
+      } 
+    }
+  }
+
+  &__city {
+    padding: 26px 0 27px;
+    text-align: center;
+    margin: 1px;
+
+    @each $key, $val in $city-colors {
+      &--#{$key} {
+        background-color: $val;
+      } 
+    }
+  }
+
+  &__temperature {
+    opacity: 0.5;
+    margin-top: rem(10px);
+
+    &-degree {
+      margin-right: rem(10px);
+    }
+
+    &-icon {
+      font-size: rem(42px);
+      height: rem(50px);
+      vertical-align: middle;
+    }
+  }
+}
